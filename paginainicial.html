@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adivinhe a Palavra</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="paginainicial.css">
+
+<script src="paginainicial.js"></script>
+</head>
+<body>
+
+<center>
+	<h1>Jogo</h1>
+
+
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+        
+<!--Essa linha de código HTML cria um quadrado colorido 
+    que aparece na tela do computador ou do celular. Ele é dividido em 
+    12 partes iguais na horizontal. 
+    Dependendo do tamanho da tela, o quadrado ocupará um número diferente dessas partes. 
+    Quando a tela for grande, o quadrado será mais largo e ocupará 4 partes, mas quando a tela for pequena, ele será mais estreito e ocupará 11 partes. 
+    A classe "login_div1" é um nome especial que podemos dar para essa caixa e que pode ser usado para mudar a cor, o tamanho ou outras coisas dela. 
+    É como se fosse um apelido que damos para um amigo para reconhecê-lo mais facilmente.-->
+
+		<h3 >Jogador 1, faça o Login para jogar.</h3>
+		<label >Nome de Usuário:</label>
+		 <input type="text" id="player1NameInput" class="form-control" placeholder="Nome do Jogador 1">
+		 <br>
+	</div>
+<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+		<h3 >Jogador 2, faça o Login para jogar.</h3>
+		  <label >Nome de Usuário:</label>
+		 <input type="text" id="player2NameInput" class="form-control" placeholder="Nome do Jogador 2">
+		<br>
+	</div>
+	<br>
+		<button style="width:30%" class="btn btn-primary" onclick="addUser()">Log in</button>
+</center>
+
+</body>
+</html>
